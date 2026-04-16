@@ -19,3 +19,4 @@ git log --all --decorate --oneline --graph // to show history changes with graph
 
 git branch -d branch_name // to delete a branch
 git branch --merged // to show what branch already merged
+
