@@ -11,5 +11,11 @@ git status // to check your repository status
 git log // to check the history
 
 git checkout -- file.txt (5 first digit hash) // to back the previous certain file change
+git checkout <branch_name> // to move another branch
 
 git commit -am "add file and message the change with just one line"
+
+git log --all --decorate --oneline --graph // to show history changes with graph
+
+git branch -d branch_name // to delete a branch
+git branch --merged // to show what branch already merged
