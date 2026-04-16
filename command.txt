@@ -1,0 +1,13 @@
+git init // make initial a repository
+
+git config --global user.email "youremail@email.com" // if you don't config your email
+git config --global user.name "your name" // if you don't config your name
+
+git add file.txt
+git commit -m "your message"
+
+git status // to check your repository status
+
+git log // to check the history
+
+git checkout -- file.txt (5 first digit hash) // to back the previous certain file change
